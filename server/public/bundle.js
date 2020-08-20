@@ -468,44 +468,44 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var images = [{
   id: 1,
-  thumbnail: "/img/1-1.jpg",
-  fullSize: "/img/1-2.jpg"
+  thumbnail: "./img/1-1.jpg",
+  fullSize: "./img/1-2.jpg"
 }, {
   id: 2,
-  thumbnail: "/img/2-1.jpg",
-  fullSize: "/img/2-2.jpg"
+  thumbnail: "./img/2-1.jpg",
+  fullSize: "./img/2-2.jpg"
 }, {
   id: 3,
-  thumbnail: "/img/3-1.jpg",
-  fullSize: "/img/3-2.jpg"
+  thumbnail: "./img/3-1.jpg",
+  fullSize: "./img/3-2.jpg"
 }, {
   id: 4,
-  thumbnail: "/img/4-1.jpg",
-  fullSize: "/img/4-2.jpg"
+  thumbnail: "./img/4-1.jpg",
+  fullSize: "./img/4-2.jpg"
 }, {
   id: 5,
-  thumbnail: "/img/5-1.jpg",
-  fullSize: "/img/5-2.jpg"
+  thumbnail: "./img/5-1.jpg",
+  fullSize: "./img/5-2.jpg"
 }];
 
-var About =
+var Gallery =
 /*#__PURE__*/
 function (_React$Component) {
-  _inherits(About, _React$Component);
+  _inherits(Gallery, _React$Component);
 
-  function About(props) {
+  function Gallery(props) {
     var _this;
 
-    _classCallCheck(this, About);
+    _classCallCheck(this, Gallery);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(About).call(this, props));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Gallery).call(this, props));
     _this.state = {
       popupImageId: null
     };
     return _this;
   }
 
-  _createClass(About, [{
+  _createClass(Gallery, [{
     key: "togglePopup",
     value: function togglePopup() {
       var id = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
@@ -576,10 +576,10 @@ function (_React$Component) {
     }
   }]);
 
-  return About;
+  return Gallery;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (About);
+/* harmony default export */ __webpack_exports__["default"] = (Gallery);
 
 /***/ }),
 
